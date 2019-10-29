@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	cout << "Enter Name" << endl;
+	char userName;
+	cin >> userName;
+
+	cout << "Enter Age" << endl;
+	int age;
+	cin >> age;
+
+	cout << "Enter Hometown" << endl;
+	char town;
+	cin >> town;
+
+
+	cout << userName + age + town << endl;
+
+
+	return 0;
+}
